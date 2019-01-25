@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		630FA7C31D70478700178538 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630FA7C21D70478700178538 /* Question.swift */; };
+		630FA7C51D704E2300178538 /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630FA7C41D704E2300178538 /* QuestionBank.swift */; };
+		630FA7CC1D707CED00178538 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 630FA7C91D707CED00178538 /* ProgressHUD.bundle */; };
+		630FA7CD1D707CED00178538 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 630FA7CB1D707CED00178538 /* ProgressHUD.m */; };
 		633646BF1B8C657400FF45E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633646BE1B8C657400FF45E2 /* AppDelegate.swift */; };
 		633646C11B8C657400FF45E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633646C01B8C657400FF45E2 /* ViewController.swift */; };
+		633646C41B8C657400FF45E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633646C21B8C657400FF45E2 /* Main.storyboard */; };
 		633646C61B8C657400FF45E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 633646C51B8C657400FF45E2 /* Images.xcassets */; };
-		633646C91B8C657400FF45E2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 633646C71B8C657400FF45E2 /* LaunchScreen.xib */; };
-		AD6F1CCC20EBCFF600198C34 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AD6F1CCB20EBCFF600198C34 /* README.md */; };
-		ADEB04ED1FBDFEAA00026359 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633646C21B8C657400FF45E2 /* Main.storyboard */; };
+		AD6D011620EA7E6B00B1782A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD6D011320EA7E6B00B1782A /* LaunchScreen.storyboard */; };
+		AD6D011720EA7E6B00B1782A /* AppBreweryLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = AD6D011420EA7E6B00B1782A /* AppBreweryLogo.png */; };
+		AD6D011820EA7E6B00B1782A /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = AD6D011520EA7E6B00B1782A /* background.png */; };
+		AD6D011A20EA7E8D00B1782A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AD6D011920EA7E8D00B1782A /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		630FA7C21D70478700178538 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		630FA7C41D704E2300178538 /* QuestionBank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
+		630FA7C81D707CEC00178538 /* Quizzler-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Quizzler-Bridging-Header.h"; sourceTree = "<group>"; };
+		630FA7C91D707CED00178538 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		630FA7CA1D707CED00178538 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		630FA7CB1D707CED00178538 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
 		633646B91B8C657400FF45E2 /* Quizzler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quizzler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		633646BD1B8C657400FF45E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		633646BE1B8C657400FF45E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		633646C01B8C657400FF45E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		633646C31B8C657400FF45E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		633646C51B8C657400FF45E2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		633646C81B8C657400FF45E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		AD6F1CCB20EBCFF600198C34 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AD6D011320EA7E6B00B1782A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD6D011420EA7E6B00B1782A /* AppBreweryLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppBreweryLogo.png; sourceTree = "<group>"; };
+		AD6D011520EA7E6B00B1782A /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		AD6D011920EA7E8D00B1782A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +54,7 @@
 		633646B01B8C657400FF45E2 = {
 			isa = PBXGroup;
 			children = (
-				AD6F1CCB20EBCFF600198C34 /* README.md */,
+				AD6D011920EA7E8D00B1782A /* README.md */,
 				633646BB1B8C657400FF45E2 /* Quizzler */,
 				633646BA1B8C657400FF45E2 /* Products */,
 			);
@@ -68,8 +82,14 @@
 		633646BC1B8C657400FF45E2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				633646C71B8C657400FF45E2 /* LaunchScreen.xib */,
+				AD6D011420EA7E6B00B1782A /* AppBreweryLogo.png */,
+				AD6D011520EA7E6B00B1782A /* background.png */,
+				AD6D011320EA7E6B00B1782A /* LaunchScreen.storyboard */,
+				630FA7C91D707CED00178538 /* ProgressHUD.bundle */,
+				630FA7CA1D707CED00178538 /* ProgressHUD.h */,
+				630FA7CB1D707CED00178538 /* ProgressHUD.m */,
 				633646BD1B8C657400FF45E2 /* Info.plist */,
+				630FA7C81D707CEC00178538 /* Quizzler-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -77,8 +97,8 @@
 		EBB1C72B1B946C4B0011F5C3 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				633646C21B8C657400FF45E2 /* Main.storyboard */,
 				633646C51B8C657400FF45E2 /* Images.xcassets */,
+				633646C21B8C657400FF45E2 /* Main.storyboard */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -86,6 +106,8 @@
 		EBB1C72C1B946C530011F5C3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				630FA7C21D70478700178538 /* Question.swift */,
+				630FA7C41D704E2300178538 /* QuestionBank.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -125,12 +147,13 @@
 		633646B11B8C657400FF45E2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "London App Brewery";
 				TargetAttributes = {
 					633646B81B8C657400FF45E2 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 3ECFYJZ64T;
 						LastSwiftMigration = 0900;
 					};
 				};
@@ -158,10 +181,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADEB04ED1FBDFEAA00026359 /* Main.storyboard in Resources */,
-				633646C91B8C657400FF45E2 /* LaunchScreen.xib in Resources */,
-				AD6F1CCC20EBCFF600198C34 /* README.md in Resources */,
+				630FA7CC1D707CED00178538 /* ProgressHUD.bundle in Resources */,
+				AD6D011820EA7E6B00B1782A /* background.png in Resources */,
+				AD6D011620EA7E6B00B1782A /* LaunchScreen.storyboard in Resources */,
+				AD6D011A20EA7E8D00B1782A /* README.md in Resources */,
+				633646C41B8C657400FF45E2 /* Main.storyboard in Resources */,
 				633646C61B8C657400FF45E2 /* Images.xcassets in Resources */,
+				AD6D011720EA7E6B00B1782A /* AppBreweryLogo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,6 +199,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				633646C11B8C657400FF45E2 /* ViewController.swift in Sources */,
+				630FA7C31D70478700178538 /* Question.swift in Sources */,
+				630FA7CD1D707CED00178538 /* ProgressHUD.m in Sources */,
+				630FA7C51D704E2300178538 /* QuestionBank.swift in Sources */,
 				633646BF1B8C657400FF45E2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -186,14 +215,6 @@
 				633646C31B8C657400FF45E2 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		633646C71B8C657400FF45E2 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				633646C81B8C657400FF45E2 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -246,7 +267,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -294,10 +315,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -307,15 +327,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				DEVELOPMENT_TEAM = 3ECFYJZ64T;
 				INFOPLIST_FILE = Quizzler/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.londonappbrewery.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Quizzler/Quizzler-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -324,14 +345,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				DEVELOPMENT_TEAM = 3ECFYJZ64T;
 				INFOPLIST_FILE = Quizzler/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.londonappbrewery.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Quizzler/Quizzler-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
